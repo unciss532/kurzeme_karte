@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1ef6eaed618d0d4deaac319c40442700 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1ef6eaed618d0d4deaac319c40442700" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1ef6eaed618d0d4deaac319c40442700 = L.map(
+                "map_1ef6eaed618d0d4deaac319c40442700",
+                {
+                    center: [56.8, 22.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d2ab1bb4d3aa9cea68b67cf675eab406 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var marker_27dd8360e11ec6423ab817048ba44d41 = L.marker(
+                [56.7214, 21.6028],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_fda7d376eb5a62c71a13fc61f62c2c05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_27dd8360e11ec6423ab817048ba44d41.setIcon(icon_fda7d376eb5a62c71a13fc61f62c2c05);
+        
+    
+        var popup_d74190a0a9e9b92e2cb09ce844cf63df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0e05c8d8f20732e1e22d0d0f925b4cf = $(`<div id="html_a0e05c8d8f20732e1e22d0d0f925b4cf" style="width: 100.0%; height: 100.0%;">Aizpute (Cities and towns)</div>`)[0];
+            popup_d74190a0a9e9b92e2cb09ce844cf63df.setContent(html_a0e05c8d8f20732e1e22d0d0f925b4cf);
+        
+
+        marker_27dd8360e11ec6423ab817048ba44d41.bindPopup(popup_d74190a0a9e9b92e2cb09ce844cf63df)
+        ;
+
+        
+    
+    
+            var marker_ca8a0a37f44adc8370369f0c9e624bff = L.marker(
+                [56.9806, 21.5586],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_466d0d5c94d73d5aac0769c6a20e9f5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ca8a0a37f44adc8370369f0c9e624bff.setIcon(icon_466d0d5c94d73d5aac0769c6a20e9f5c);
+        
+    
+        var popup_62857a2b0279a1a7a7a8d09ef1035950 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_570bae517879f8884d31322e7cadb9a6 = $(`<div id="html_570bae517879f8884d31322e7cadb9a6" style="width: 100.0%; height: 100.0%;">Alsunga (Cities and towns)</div>`)[0];
+            popup_62857a2b0279a1a7a7a8d09ef1035950.setContent(html_570bae517879f8884d31322e7cadb9a6);
+        
+
+        marker_ca8a0a37f44adc8370369f0c9e624bff.bindPopup(popup_62857a2b0279a1a7a7a8d09ef1035950)
+        ;
+
+        
+    
+    
+            var marker_da181476bd7ddfa84927abc74f7d17d6 = L.marker(
+                [56.4172, 21.2228],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_f5431c6863492b0a2b9002eac5a2bf41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_da181476bd7ddfa84927abc74f7d17d6.setIcon(icon_f5431c6863492b0a2b9002eac5a2bf41);
+        
+    
+        var popup_12f9e6fddf938ca4df25d91173a54afc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d8fe1e17d119ca9d2487e69acf74f88 = $(`<div id="html_7d8fe1e17d119ca9d2487e69acf74f88" style="width: 100.0%; height: 100.0%;">Bārta (Cities and towns)</div>`)[0];
+            popup_12f9e6fddf938ca4df25d91173a54afc.setContent(html_7d8fe1e17d119ca9d2487e69acf74f88);
+        
+
+        marker_da181476bd7ddfa84927abc74f7d17d6.bindPopup(popup_12f9e6fddf938ca4df25d91173a54afc)
+        ;
+
+        
+    
+    
+            var marker_ce868c9558428d3003951fbafc0612e2 = L.marker(
+                [56.5319, 21.1306],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_9a3e36ed4d59b3fc0b6de52ca797ce3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ce868c9558428d3003951fbafc0612e2.setIcon(icon_9a3e36ed4d59b3fc0b6de52ca797ce3a);
+        
+    
+        var popup_5526321878209b185a4fe25173b49369 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_014ae26e73dbf04c7bd011538ca4f745 = $(`<div id="html_014ae26e73dbf04c7bd011538ca4f745" style="width: 100.0%; height: 100.0%;">Cimdenieki (Cities and towns)</div>`)[0];
+            popup_5526321878209b185a4fe25173b49369.setContent(html_014ae26e73dbf04c7bd011538ca4f745);
+        
+
+        marker_ce868c9558428d3003951fbafc0612e2.bindPopup(popup_5526321878209b185a4fe25173b49369)
+        ;
+
+        
+    
+    
+            var marker_7208c45b8717d4b7c2b1a06e4ed96c32 = L.marker(
+                [57.5092, 22.3514],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_79a7d7a2fb841b213643beaea291493c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7208c45b8717d4b7c2b1a06e4ed96c32.setIcon(icon_79a7d7a2fb841b213643beaea291493c);
+        
+    
+        var popup_07a686331179f0217eba3367b2b59f82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b228dbf8b6ee5f65c3a18745c3057e1 = $(`<div id="html_1b228dbf8b6ee5f65c3a18745c3057e1" style="width: 100.0%; height: 100.0%;">Dundaga (Cities and towns)</div>`)[0];
+            popup_07a686331179f0217eba3367b2b59f82.setContent(html_1b228dbf8b6ee5f65c3a18745c3057e1);
+        
+
+        marker_7208c45b8717d4b7c2b1a06e4ed96c32.bindPopup(popup_07a686331179f0217eba3367b2b59f82)
+        ;
+
+        
+    
+    
+            var marker_8fae1766a950a5f9dd2fa60761d9ed5d = L.marker(
+                [56.6739, 21.3575],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_c1db617aa38a2194daa21635ef1aa879 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8fae1766a950a5f9dd2fa60761d9ed5d.setIcon(icon_c1db617aa38a2194daa21635ef1aa879);
+        
+    
+        var popup_90b7ae72e4cc95bf9f8197540b3eda59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6684a9591bb1481f39aedc28720e02a = $(`<div id="html_d6684a9591bb1481f39aedc28720e02a" style="width: 100.0%; height: 100.0%;">Durbe (Cities and towns)</div>`)[0];
+            popup_90b7ae72e4cc95bf9f8197540b3eda59.setContent(html_d6684a9591bb1481f39aedc28720e02a);
+        
+
+        marker_8fae1766a950a5f9dd2fa60761d9ed5d.bindPopup(popup_90b7ae72e4cc95bf9f8197540b3eda59)
+        ;
+
+        
+    
+    
+            var marker_86dd57f9565d471817434b0b9da455db = L.marker(
+                [56.9792, 21.8189],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_87da035571af3b9912a8854069fe0307 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_86dd57f9565d471817434b0b9da455db.setIcon(icon_87da035571af3b9912a8854069fe0307);
+        
+    
+        var popup_06a80c0d03af4e35bc8b81147c49fa39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_980a832abd5583e2b417633281c08f48 = $(`<div id="html_980a832abd5583e2b417633281c08f48" style="width: 100.0%; height: 100.0%;">Ēdole (Cities and towns)</div>`)[0];
+            popup_06a80c0d03af4e35bc8b81147c49fa39.setContent(html_980a832abd5583e2b417633281c08f48);
+        
+
+        marker_86dd57f9565d471817434b0b9da455db.bindPopup(popup_06a80c0d03af4e35bc8b81147c49fa39)
+        ;
+
+        
+    
+    
+            var marker_4418dffeac1650d6598af9a1e72b9bd1 = L.marker(
+                [56.9678, 21.9706],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_b177060ae746c7bc769876a6c905d882 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4418dffeac1650d6598af9a1e72b9bd1.setIcon(icon_b177060ae746c7bc769876a6c905d882);
+        
+    
+        var popup_beac6ff9c05238420eb7ecc4b79a53fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3568a650576e84cb50c744f5745877a4 = $(`<div id="html_3568a650576e84cb50c744f5745877a4" style="width: 100.0%; height: 100.0%;">Kuldīga (Cities and towns)</div>`)[0];
+            popup_beac6ff9c05238420eb7ecc4b79a53fc.setContent(html_3568a650576e84cb50c744f5745877a4);
+        
+
+        marker_4418dffeac1650d6598af9a1e72b9bd1.bindPopup(popup_beac6ff9c05238420eb7ecc4b79a53fc)
+        ;
+
+        
+    
+    
+            var marker_b9a2931bfcb8f1a7a040168ec5d723cd = L.marker(
+                [57.04, 22.7764],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_ab089ed3ac6f72a05a078b62ef65ae65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b9a2931bfcb8f1a7a040168ec5d723cd.setIcon(icon_ab089ed3ac6f72a05a078b62ef65ae65);
+        
+    
+        var popup_7a5768ae07d0b5634218e78a0a31d921 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e732ff79b295d2b08b2fe6a2df83b9b = $(`<div id="html_0e732ff79b295d2b08b2fe6a2df83b9b" style="width: 100.0%; height: 100.0%;">Kandava (Cities and towns)</div>`)[0];
+            popup_7a5768ae07d0b5634218e78a0a31d921.setContent(html_0e732ff79b295d2b08b2fe6a2df83b9b);
+        
+
+        marker_b9a2931bfcb8f1a7a040168ec5d723cd.bindPopup(popup_7a5768ae07d0b5634218e78a0a31d921)
+        ;
+
+        
+    
+    
+            var marker_627b5eeeeccdbcf6caea1309dcec8e85 = L.marker(
+                [57.7567, 22.5836],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_e806ca72593afe9698fc61341ec6a974 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_627b5eeeeccdbcf6caea1309dcec8e85.setIcon(icon_e806ca72593afe9698fc61341ec6a974);
+        
+    
+        var popup_665dbd9198e1396343564ee48740ee5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c1ad6d251bcac7f7cfeae5b15a105fe = $(`<div id="html_6c1ad6d251bcac7f7cfeae5b15a105fe" style="width: 100.0%; height: 100.0%;">Kolka (Cities and towns)</div>`)[0];
+            popup_665dbd9198e1396343564ee48740ee5d.setContent(html_6c1ad6d251bcac7f7cfeae5b15a105fe);
+        
+
+        marker_627b5eeeeccdbcf6caea1309dcec8e85.bindPopup(popup_665dbd9198e1396343564ee48740ee5d)
+        ;
+
+        
+    
+    
+            var marker_2aebc94e36191baaf6f4ebdc24f19fbb = L.marker(
+                [56.5047, 21.0136],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_df032524d99f91191be753ea60b3bb0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2aebc94e36191baaf6f4ebdc24f19fbb.setIcon(icon_df032524d99f91191be753ea60b3bb0a);
+        
+    
+        var popup_6ee9811d8b7f058cfeeb353d1b4c9efb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac50a26b2df9cd7f9bc6b29708f58114 = $(`<div id="html_ac50a26b2df9cd7f9bc6b29708f58114" style="width: 100.0%; height: 100.0%;">Liepāja (Cities and towns)</div>`)[0];
+            popup_6ee9811d8b7f058cfeeb353d1b4c9efb.setContent(html_ac50a26b2df9cd7f9bc6b29708f58114);
+        
+
+        marker_2aebc94e36191baaf6f4ebdc24f19fbb.bindPopup(popup_6ee9811d8b7f058cfeeb353d1b4c9efb)
+        ;
+
+        
+    
+    
+            var marker_506c2b60caddb29cb62b477b71115eed = L.marker(
+                [57.6714, 22.3419],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_c0ebdd74841ec3e9d04987c008af2de3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_506c2b60caddb29cb62b477b71115eed.setIcon(icon_c0ebdd74841ec3e9d04987c008af2de3);
+        
+    
+        var popup_ec64283accafbc64ab49df4666e659c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cbb24c8ab0d9d7bcc081c149e424d32 = $(`<div id="html_8cbb24c8ab0d9d7bcc081c149e424d32" style="width: 100.0%; height: 100.0%;">Mazirbe (Cities and towns)</div>`)[0];
+            popup_ec64283accafbc64ab49df4666e659c4.setContent(html_8cbb24c8ab0d9d7bcc081c149e424d32);
+        
+
+        marker_506c2b60caddb29cb62b477b71115eed.bindPopup(popup_ec64283accafbc64ab49df4666e659c4)
+        ;
+
+        
+    
+    
+            var marker_a27ed734ddb6f15ebcda00ff9e4c23e3 = L.marker(
+                [57.3369, 23.1194],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_f1e3ad1ba9b767f942f309285722d5bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a27ed734ddb6f15ebcda00ff9e4c23e3.setIcon(icon_f1e3ad1ba9b767f942f309285722d5bc);
+        
+    
+        var popup_3df35d75d596e63bde92e2c0236b7f90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75a4f5f2c02db3c0642c0c57ed8079fa = $(`<div id="html_75a4f5f2c02db3c0642c0c57ed8079fa" style="width: 100.0%; height: 100.0%;">Mērsrags (Cities and towns)</div>`)[0];
+            popup_3df35d75d596e63bde92e2c0236b7f90.setContent(html_75a4f5f2c02db3c0642c0c57ed8079fa);
+        
+
+        marker_a27ed734ddb6f15ebcda00ff9e4c23e3.bindPopup(popup_3df35d75d596e63bde92e2c0236b7f90)
+        ;
+
+        
+    
+    
+            var marker_02f018aaa4a16cf5ff64efef80c57350 = L.marker(
+                [56.3467, 21.0644],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_cc171450959792b77bee0b1acb1f9feb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_02f018aaa4a16cf5ff64efef80c57350.setIcon(icon_cc171450959792b77bee0b1acb1f9feb);
+        
+    
+        var popup_0de42e3e9b70cdf48db5d03402dd1d6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_422159e2329146cd86195e67d7dac841 = $(`<div id="html_422159e2329146cd86195e67d7dac841" style="width: 100.0%; height: 100.0%;">Nīca (Cities and towns)</div>`)[0];
+            popup_0de42e3e9b70cdf48db5d03402dd1d6d.setContent(html_422159e2329146cd86195e67d7dac841);
+        
+
+        marker_02f018aaa4a16cf5ff64efef80c57350.bindPopup(popup_0de42e3e9b70cdf48db5d03402dd1d6d)
+        ;
+
+        
+    
+    
+            var marker_88180b02276706020a4967c85faa6c1b = L.marker(
+                [56.8883, 21.1853],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_07f59021a2b4c451deac5836b98d8caf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_88180b02276706020a4967c85faa6c1b.setIcon(icon_07f59021a2b4c451deac5836b98d8caf);
+        
+    
+        var popup_ebb0ebdb57151696d508b366e2ee6d3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1e6a31ec4d5256bbdec9ee32310d108 = $(`<div id="html_e1e6a31ec4d5256bbdec9ee32310d108" style="width: 100.0%; height: 100.0%;">Pāvilosta (Cities and towns)</div>`)[0];
+            popup_ebb0ebdb57151696d508b366e2ee6d3b.setContent(html_e1e6a31ec4d5256bbdec9ee32310d108);
+        
+
+        marker_88180b02276706020a4967c85faa6c1b.bindPopup(popup_ebb0ebdb57151696d508b366e2ee6d3b)
+        ;
+
+        
+    
+    
+            var marker_ac3e65d769ceca84e744a57e39d3c69b = L.marker(
+                [57.5039, 22.8097],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_18b352edd34945bbb1337d2d33d6a963 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ac3e65d769ceca84e744a57e39d3c69b.setIcon(icon_18b352edd34945bbb1337d2d33d6a963);
+        
+    
+        var popup_0a4d9b510b2cc0ed04f9eab0ce86e47e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_922db4426341b09986571c5009a6b62f = $(`<div id="html_922db4426341b09986571c5009a6b62f" style="width: 100.0%; height: 100.0%;">Roja (Cities and towns)</div>`)[0];
+            popup_0a4d9b510b2cc0ed04f9eab0ce86e47e.setContent(html_922db4426341b09986571c5009a6b62f);
+        
+
+        marker_ac3e65d769ceca84e744a57e39d3c69b.bindPopup(popup_0a4d9b510b2cc0ed04f9eab0ce86e47e)
+        ;
+
+        
+    
+    
+            var marker_c62c0f984077c4c32462758fe9843157 = L.marker(
+                [56.1617, 21.1608],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_000bc85d22b135048ed2b3164a75aa84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c62c0f984077c4c32462758fe9843157.setIcon(icon_000bc85d22b135048ed2b3164a75aa84);
+        
+    
+        var popup_f7d127f386fcfa93bace2214fd7a6570 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e1b9456a09afb98ceffc758912a231d = $(`<div id="html_6e1b9456a09afb98ceffc758912a231d" style="width: 100.0%; height: 100.0%;">Rucava (Cities and towns)</div>`)[0];
+            popup_f7d127f386fcfa93bace2214fd7a6570.setContent(html_6e1b9456a09afb98ceffc758912a231d);
+        
+
+        marker_c62c0f984077c4c32462758fe9843157.bindPopup(popup_f7d127f386fcfa93bace2214fd7a6570)
+        ;
+
+        
+    
+    
+            var marker_393d1a488439d1bf7f42f6da7d3e65b9 = L.marker(
+                [57.0433, 22.5761],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_7ee9ef186fe2c87a5ca40af083b08fe5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_393d1a488439d1bf7f42f6da7d3e65b9.setIcon(icon_7ee9ef186fe2c87a5ca40af083b08fe5);
+        
+    
+        var popup_3fab8ddb3d8fe3816a1270e33cb12b20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ae6ef7bb065f789bcc4979f04df3404 = $(`<div id="html_7ae6ef7bb065f789bcc4979f04df3404" style="width: 100.0%; height: 100.0%;">Sabile (Cities and towns)</div>`)[0];
+            popup_3fab8ddb3d8fe3816a1270e33cb12b20.setContent(html_7ae6ef7bb065f789bcc4979f04df3404);
+        
+
+        marker_393d1a488439d1bf7f42f6da7d3e65b9.bindPopup(popup_3fab8ddb3d8fe3816a1270e33cb12b20)
+        ;
+
+        
+    
+    
+            var marker_f359dffb6333447e9528666aad1bc73a = L.marker(
+                [56.6631, 22.4911],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_b15fc09bfe20b2084df29526156a8fe2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f359dffb6333447e9528666aad1bc73a.setIcon(icon_b15fc09bfe20b2084df29526156a8fe2);
+        
+    
+        var popup_3e70075e99b3d7490a0e69fc1355910f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64279af5e7c4bb109aadffa99ca649d0 = $(`<div id="html_64279af5e7c4bb109aadffa99ca649d0" style="width: 100.0%; height: 100.0%;">Saldus (Cities and towns)</div>`)[0];
+            popup_3e70075e99b3d7490a0e69fc1355910f.setContent(html_64279af5e7c4bb109aadffa99ca649d0);
+        
+
+        marker_f359dffb6333447e9528666aad1bc73a.bindPopup(popup_3e70075e99b3d7490a0e69fc1355910f)
+        ;
+
+        
+    
+    
+            var marker_4dd6a05914a016cc5d5cced1396a2104 = L.marker(
+                [57.2447, 22.5975],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_e3fae261d7104ffa8c112ef5dabf7719 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4dd6a05914a016cc5d5cced1396a2104.setIcon(icon_e3fae261d7104ffa8c112ef5dabf7719);
+        
+    
+        var popup_37d19c02e1ba338f0fca5430254e432a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bad98b412d125ce25710c4756213c4a2 = $(`<div id="html_bad98b412d125ce25710c4756213c4a2" style="width: 100.0%; height: 100.0%;">Talsi (Cities and towns)</div>`)[0];
+            popup_37d19c02e1ba338f0fca5430254e432a.setContent(html_bad98b412d125ce25710c4756213c4a2);
+        
+
+        marker_4dd6a05914a016cc5d5cced1396a2104.bindPopup(popup_37d19c02e1ba338f0fca5430254e432a)
+        ;
+
+        
+    
+    
+            var marker_260fbebc668278e27113ca0856bbd5f4 = L.marker(
+                [56.9667, 23.1556],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_c352ace2d042b1c3be9337b09275227e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_260fbebc668278e27113ca0856bbd5f4.setIcon(icon_c352ace2d042b1c3be9337b09275227e);
+        
+    
+        var popup_5e6e598cce5cc7e54c92c450e9e592de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5b94b2b78708063bf20141f47952813 = $(`<div id="html_f5b94b2b78708063bf20141f47952813" style="width: 100.0%; height: 100.0%;">Tukums (Cities and towns)</div>`)[0];
+            popup_5e6e598cce5cc7e54c92c450e9e592de.setContent(html_f5b94b2b78708063bf20141f47952813);
+        
+
+        marker_260fbebc668278e27113ca0856bbd5f4.bindPopup(popup_5e6e598cce5cc7e54c92c450e9e592de)
+        ;
+
+        
+    
+    
+            var marker_219fa8a73775e70c3ef9a4b5348d8d97 = L.marker(
+                [56.7525, 21.2822],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_9feb8cc7b6960facb521f4fb26a37133 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_219fa8a73775e70c3ef9a4b5348d8d97.setIcon(icon_9feb8cc7b6960facb521f4fb26a37133);
+        
+    
+        var popup_28b0bf5375b0490e2a9b36acfdc631e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8db70b5fe907affdb8b2c2197ae8820 = $(`<div id="html_f8db70b5fe907affdb8b2c2197ae8820" style="width: 100.0%; height: 100.0%;">Vērgale (Cities and towns)</div>`)[0];
+            popup_28b0bf5375b0490e2a9b36acfdc631e0.setContent(html_f8db70b5fe907affdb8b2c2197ae8820);
+        
+
+        marker_219fa8a73775e70c3ef9a4b5348d8d97.bindPopup(popup_28b0bf5375b0490e2a9b36acfdc631e0)
+        ;
+
+        
+    
+    
+            var marker_2701ea1b817c4a4dd1929e0a5191fd0e = L.marker(
+                [57.3894, 21.5442],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_767eb1ae56d613578691d194c5e1405b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2701ea1b817c4a4dd1929e0a5191fd0e.setIcon(icon_767eb1ae56d613578691d194c5e1405b);
+        
+    
+        var popup_9ee0c7f52ddba60766db8c9736b573c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37a60deda6e1d91ee94b4772b1ff1f3a = $(`<div id="html_37a60deda6e1d91ee94b4772b1ff1f3a" style="width: 100.0%; height: 100.0%;">Ventspils (Cities and towns)</div>`)[0];
+            popup_9ee0c7f52ddba60766db8c9736b573c7.setContent(html_37a60deda6e1d91ee94b4772b1ff1f3a);
+        
+
+        marker_2701ea1b817c4a4dd1929e0a5191fd0e.bindPopup(popup_9ee0c7f52ddba60766db8c9736b573c7)
+        ;
+
+        
+    
+    
+            var marker_0cb74075247a3acbbb5ae1f23e6e7ae3 = L.marker(
+                [56.7547, 21.2353],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_7fcd7d161db18897825b5047205b0e14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0cb74075247a3acbbb5ae1f23e6e7ae3.setIcon(icon_7fcd7d161db18897825b5047205b0e14);
+        
+    
+        var popup_efc9640870bea807f430cfc5aeaff6c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76bfc39b7784b49ff8b014998bdf68a8 = $(`<div id="html_76bfc39b7784b49ff8b014998bdf68a8" style="width: 100.0%; height: 100.0%;">Ziemupe (Cities and towns)</div>`)[0];
+            popup_efc9640870bea807f430cfc5aeaff6c3.setContent(html_76bfc39b7784b49ff8b014998bdf68a8);
+        
+
+        marker_0cb74075247a3acbbb5ae1f23e6e7ae3.bindPopup(popup_efc9640870bea807f430cfc5aeaff6c3)
+        ;
+
+        
+    
+    
+            var marker_17153ae2fac395a8a605d449641ed3eb = L.marker(
+                [57.0, 22.4714],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_0fdf48d43f3ba0f862d1b144004c3581 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_17153ae2fac395a8a605d449641ed3eb.setIcon(icon_0fdf48d43f3ba0f862d1b144004c3581);
+        
+    
+        var popup_f43b7cefeeb10c1426fa7a250cdf23c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b67ebcb6ed18f4b8283921fc289ae9f3 = $(`<div id="html_b67ebcb6ed18f4b8283921fc289ae9f3" style="width: 100.0%; height: 100.0%;">Abavas Rumba (Nature)</div>`)[0];
+            popup_f43b7cefeeb10c1426fa7a250cdf23c7.setContent(html_b67ebcb6ed18f4b8283921fc289ae9f3);
+        
+
+        marker_17153ae2fac395a8a605d449641ed3eb.bindPopup(popup_f43b7cefeeb10c1426fa7a250cdf23c7)
+        ;
+
+        
+    
+    
+            var marker_a7b5dd63a2b464b3fbfa9e53724a373c = L.marker(
+                [56.85, 21.3833],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_5c839d80d700d55dfa941e71a51e5a6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a7b5dd63a2b464b3fbfa9e53724a373c.setIcon(icon_5c839d80d700d55dfa941e71a51e5a6c);
+        
+    
+        var popup_f53859db87d0a25f4495df72ba61b61e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afd2b2f3f901a0bea050fa644146565d = $(`<div id="html_afd2b2f3f901a0bea050fa644146565d" style="width: 100.0%; height: 100.0%;">Jūrkalnes stāvkrasts (Nature)</div>`)[0];
+            popup_f53859db87d0a25f4495df72ba61b61e.setContent(html_afd2b2f3f901a0bea050fa644146565d);
+        
+
+        marker_a7b5dd63a2b464b3fbfa9e53724a373c.bindPopup(popup_f53859db87d0a25f4495df72ba61b61e)
+        ;
+
+        
+    
+    
+            var marker_fac7ff97b57cf9ce75b36d3c2df2b1cd = L.marker(
+                [56.9739, 21.9833],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_f496e8a93ddda4eb0ced38967441df77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fac7ff97b57cf9ce75b36d3c2df2b1cd.setIcon(icon_f496e8a93ddda4eb0ced38967441df77);
+        
+    
+        var popup_f134ef25e6edf552d3894b489a064159 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e067c450b9b8e716f49c89fe65748ebd = $(`<div id="html_e067c450b9b8e716f49c89fe65748ebd" style="width: 100.0%; height: 100.0%;">Ventas Rumba (Nature)</div>`)[0];
+            popup_f134ef25e6edf552d3894b489a064159.setContent(html_e067c450b9b8e716f49c89fe65748ebd);
+        
+
+        marker_fac7ff97b57cf9ce75b36d3c2df2b1cd.bindPopup(popup_f134ef25e6edf552d3894b489a064159)
+        ;
+
+        
+    
+    
+            var marker_8ca4390efd0861c76b99eab5cfd08ca9 = L.marker(
+                [56.1542, 21.0572],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_ac9355698605428f6c036dc3d03ab5ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8ca4390efd0861c76b99eab5cfd08ca9.setIcon(icon_ac9355698605428f6c036dc3d03ab5ba);
+        
+    
+        var popup_427552484bf158d87aefaed43daa477f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_314fdd0bbbc3251230dc9a12569b3e59 = $(`<div id="html_314fdd0bbbc3251230dc9a12569b3e59" style="width: 100.0%; height: 100.0%;">Papes dabas parks (Nature)</div>`)[0];
+            popup_427552484bf158d87aefaed43daa477f.setContent(html_314fdd0bbbc3251230dc9a12569b3e59);
+        
+
+        marker_8ca4390efd0861c76b99eab5cfd08ca9.bindPopup(popup_427552484bf158d87aefaed43daa477f)
+        ;
+
+        
+    
+    
+            var marker_845bff30f18ebd203685d5893fb784af = L.marker(
+                [56.965, 21.9811],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_9e005100c9f030edf7e8d11c30a72e3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_845bff30f18ebd203685d5893fb784af.setIcon(icon_9e005100c9f030edf7e8d11c30a72e3b);
+        
+    
+        var popup_f410442896dd671bfde59de9e613bcab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edbca18a4efa2159e318f93f8bc0de85 = $(`<div id="html_edbca18a4efa2159e318f93f8bc0de85" style="width: 100.0%; height: 100.0%;">Riežupes alas (Nature)</div>`)[0];
+            popup_f410442896dd671bfde59de9e613bcab.setContent(html_edbca18a4efa2159e318f93f8bc0de85);
+        
+
+        marker_845bff30f18ebd203685d5893fb784af.bindPopup(popup_f410442896dd671bfde59de9e613bcab)
+        ;
+
+        
+    
+    
+            var marker_a28b0dcd9dd282c4926eb226454f8ff1 = L.marker(
+                [57.51, 22.3525],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_9c1c295441ccb20d07d231495f9a30ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a28b0dcd9dd282c4926eb226454f8ff1.setIcon(icon_9c1c295441ccb20d07d231495f9a30ba);
+        
+    
+        var popup_4568b763c5844c135f569b6a5dd6e7c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79f9260667dd7bb1e19ccb5402ab32b5 = $(`<div id="html_79f9260667dd7bb1e19ccb5402ab32b5" style="width: 100.0%; height: 100.0%;">Dundagas pils (Culture & History)</div>`)[0];
+            popup_4568b763c5844c135f569b6a5dd6e7c1.setContent(html_79f9260667dd7bb1e19ccb5402ab32b5);
+        
+
+        marker_a28b0dcd9dd282c4926eb226454f8ff1.bindPopup(popup_4568b763c5844c135f569b6a5dd6e7c1)
+        ;
+
+        
+    
+    
+            var marker_ae2db612938b99de2279132db8ba87c6 = L.marker(
+                [57.0033, 23.0372],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_c7287fb8ef748c8815589ba9f2e360c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ae2db612938b99de2279132db8ba87c6.setIcon(icon_c7287fb8ef748c8815589ba9f2e360c0);
+        
+    
+        var popup_699dfef4e400335f72c9281095d4db04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_058c57cb15be02f40c6997acedbf9be4 = $(`<div id="html_058c57cb15be02f40c6997acedbf9be4" style="width: 100.0%; height: 100.0%;">Jaunmoku pils (Culture & History)</div>`)[0];
+            popup_699dfef4e400335f72c9281095d4db04.setContent(html_058c57cb15be02f40c6997acedbf9be4);
+        
+
+        marker_ae2db612938b99de2279132db8ba87c6.bindPopup(popup_699dfef4e400335f72c9281095d4db04)
+        ;
+
+        
+    
+    
+            var marker_9858f3dcdc279c40aabea28f2b9533e4 = L.marker(
+                [56.5361, 21.0089],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_1358bdb8fb786f614f4af83ed09ad975 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9858f3dcdc279c40aabea28f2b9533e4.setIcon(icon_1358bdb8fb786f614f4af83ed09ad975);
+        
+    
+        var popup_4be4595e179089d6e6f49a7cb3ba7ccc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb3f2a6a9ee967f6dc30fb156dfe3a63 = $(`<div id="html_fb3f2a6a9ee967f6dc30fb156dfe3a63" style="width: 100.0%; height: 100.0%;">Karosta (Culture & History)</div>`)[0];
+            popup_4be4595e179089d6e6f49a7cb3ba7ccc.setContent(html_fb3f2a6a9ee967f6dc30fb156dfe3a63);
+        
+
+        marker_9858f3dcdc279c40aabea28f2b9533e4.bindPopup(popup_4be4595e179089d6e6f49a7cb3ba7ccc)
+        ;
+
+        
+    
+    
+            var marker_1646add03990b13bc7074a3d228926cc = L.marker(
+                [57.7656, 22.5878],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_0a215fd674a4a97f5b73a85c48b1666b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1646add03990b13bc7074a3d228926cc.setIcon(icon_0a215fd674a4a97f5b73a85c48b1666b);
+        
+    
+        var popup_7f81a285d8338d79f73f525629db5c58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4a506024694a395cb3eecfcf3ca1059 = $(`<div id="html_b4a506024694a395cb3eecfcf3ca1059" style="width: 100.0%; height: 100.0%;">Kolkas bāka (Culture & History)</div>`)[0];
+            popup_7f81a285d8338d79f73f525629db5c58.setContent(html_b4a506024694a395cb3eecfcf3ca1059);
+        
+
+        marker_1646add03990b13bc7074a3d228926cc.bindPopup(popup_7f81a285d8338d79f73f525629db5c58)
+        ;
+
+        
+    
+    
+            var marker_ccf10035696517494e59acaf999d5cb1 = L.marker(
+                [56.5531, 21.0083],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_3608c4d1888b7627757236df072551ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ccf10035696517494e59acaf999d5cb1.setIcon(icon_3608c4d1888b7627757236df072551ee);
+        
+    
+        var popup_6c8ae7ab2c8b699182912cbfa7de6289 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20a48cc7a9576f4eae964a0c11d46966 = $(`<div id="html_20a48cc7a9576f4eae964a0c11d46966" style="width: 100.0%; height: 100.0%;">Ziemeļu forti (Culture & History)</div>`)[0];
+            popup_6c8ae7ab2c8b699182912cbfa7de6289.setContent(html_20a48cc7a9576f4eae964a0c11d46966);
+        
+
+        marker_ccf10035696517494e59acaf999d5cb1.bindPopup(popup_6c8ae7ab2c8b699182912cbfa7de6289)
+        ;
+
+        
+    
+    
+            var marker_5e1c5e2d0ed84679b6e3d60470e6af41 = L.marker(
+                [56.53, 21.02],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_d2a9426f4a4f5fdccbf5eea38263ee30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5e1c5e2d0ed84679b6e3d60470e6af41.setIcon(icon_d2a9426f4a4f5fdccbf5eea38263ee30);
+        
+    
+        var popup_5f13bc017f97823a201b93b8344ec00a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a63a89be55680929607554dc37c39c5a = $(`<div id="html_a63a89be55680929607554dc37c39c5a" style="width: 100.0%; height: 100.0%;">Drift arēna (Entertainment)</div>`)[0];
+            popup_5f13bc017f97823a201b93b8344ec00a.setContent(html_a63a89be55680929607554dc37c39c5a);
+        
+
+        marker_5e1c5e2d0ed84679b6e3d60470e6af41.bindPopup(popup_5f13bc017f97823a201b93b8344ec00a)
+        ;
+
+        
+    
+    
+            var marker_1259e156d1f7827bc8a7fcbfd989e301 = L.marker(
+                [57.3931, 21.5533],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_b937d41662cf2e27ca96a03028f4983c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1259e156d1f7827bc8a7fcbfd989e301.setIcon(icon_b937d41662cf2e27ca96a03028f4983c);
+        
+    
+        var popup_c54ef02b2a1bf5f9ab991056d75c9261 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f78cf4ae05b7020e9f9d723d0a053fd = $(`<div id="html_0f78cf4ae05b7020e9f9d723d0a053fd" style="width: 100.0%; height: 100.0%;">Ventspils Piedzīvojumu parks (Entertainment)</div>`)[0];
+            popup_c54ef02b2a1bf5f9ab991056d75c9261.setContent(html_0f78cf4ae05b7020e9f9d723d0a053fd);
+        
+
+        marker_1259e156d1f7827bc8a7fcbfd989e301.bindPopup(popup_c54ef02b2a1bf5f9ab991056d75c9261)
+        ;
+
+        
+    
+    
+            var marker_71d1bc9a83257edba7fb4a45b8a38658 = L.marker(
+                [57.3906, 21.555],
+                {}
+            ).addTo(map_1ef6eaed618d0d4deaac319c40442700);
+        
+    
+            var icon_cd9f02fe8a8557cf7fdfef9b639542f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_71d1bc9a83257edba7fb4a45b8a38658.setIcon(icon_cd9f02fe8a8557cf7fdfef9b639542f8);
+        
+    
+        var popup_155ea367ca44ab1d285cd6e9400ec774 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9707b236e551d392ab45d6caee7ae59f = $(`<div id="html_9707b236e551d392ab45d6caee7ae59f" style="width: 100.0%; height: 100.0%;">Zinātnes centrs VIZIUM (Entertainment)</div>`)[0];
+            popup_155ea367ca44ab1d285cd6e9400ec774.setContent(html_9707b236e551d392ab45d6caee7ae59f);
+        
+
+        marker_71d1bc9a83257edba7fb4a45b8a38658.bindPopup(popup_155ea367ca44ab1d285cd6e9400ec774)
+        ;
+
+        
+    
+</script>
+</html>
